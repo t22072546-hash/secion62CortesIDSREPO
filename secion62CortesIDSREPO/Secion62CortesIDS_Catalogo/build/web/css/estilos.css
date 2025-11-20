@@ -1,0 +1,47 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13 nov. 2025, 08:37:29
+    Author     : truks
+*/
+
+body {
+    background: linear-gradient(135deg, #e0f7fa, #f1f8e9);
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    transition: all 0.4s ease-in-out;
+}
+
+.btn {
+    border-radius: 25px;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #007bff, #00c6ff);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #0056b3, #0090cc);
+}
